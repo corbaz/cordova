@@ -1,0 +1,33 @@
+{
+    "name": "com.cordova.app",
+    "displayName": "CodobaApp",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "help": "cordova help > help.txt",
+        "info": "cordova info > info.txt",
+        "version": "cordova -v",
+        "platforms": "cordova platform ls",
+        "requirements": "cordova requirements",
+        "emulador-Android": "cordova emulate android",
+        "android": "cordova android",
+        "browser": "cdvlive browser",
+        "electron": "cordova run electron"
+    },
+    "keywords": [
+        "ecosystem:cordova"
+    ],
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "cordova-android": "^13.0.0",
+        "cordova-browser": "^7.0.0"
+    },
+    "cordova": {
+        "platforms": [
+            "android",
+            "browser"
+        ]
+    }
+}
